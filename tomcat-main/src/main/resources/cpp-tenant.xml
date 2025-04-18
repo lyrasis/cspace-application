@@ -1,4 +1,4 @@
-<cspace-config tenantname="pomona">
+<cspace-config tenantname="cpp">
 	<tenantid>100047</tenantid>
 	<version>11</version>
 	<include src="settings.xml,local-anthro-settings.xml" required="false" merge="xmlmerge-settings.properties"
