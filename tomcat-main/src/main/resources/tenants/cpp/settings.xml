@@ -55,8 +55,8 @@
         <name>cpp.collectionspace.org</name>
         <domain>cpp</domain>
         <version>0.1</version>
-        <display-name>Collectionspace POMONA Tenant</display-name>
-        <create-disabled>${CSPACE_POMONA_CREATE_DISABLED_OPT}</create-disabled>
+        <display-name>Collectionspace CPP Tenant</display-name>
+        <create-disabled>${CSPACE_CPP_CREATE_DISABLED_OPT}</create-disabled>
       </tenant>
       <repository>
         <domain>cpp</domain>
