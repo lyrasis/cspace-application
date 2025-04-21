@@ -3,7 +3,7 @@
     <username>admin@collectionspace.org</username>
     <password>Administrator</password>
     <tenant>100047</tenant>
-    <tenantname>pomona</tenantname>
+    <tenantname>cpp</tenantname>
     <cookievalidformins>60</cookievalidformins>
     <!-- termLists, autocomplete instance lists, specs, and schemas,
              static UI elements, etc.
@@ -42,7 +42,7 @@
 				<!-- <daysvalid>1</daysvalid> --> <!-- As of v5.0, this field is no longer used. -->
 				<tokenExpirationSeconds>300</tokenExpirationSeconds>
 			</token>
-			<loginpage>/cspace/pomona/resetpw</loginpage>
+			<loginpage>/cspace/cpp/resetpw</loginpage>
 			<subject>CollectionSpace password reset</subject>
 			<message>Hello {{greeting}},\n\rYou've started the process to reset your CollectionSpace account password.\n\rTo finish resetting your password, go to the Reset Password page on CollectionSpace using this link: {{link}}.\n\r\n\rPlease do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, contact your CollectionSpace administrator directly.</message>
 		</passwordreset>
@@ -52,15 +52,15 @@
       <url>http://localhost:@JEE_PORT@/cspace-services</url>
       <tenant>
         <id>100047</id>
-        <name>pomona.collectionspace.org</name>
-        <domain>pomona</domain>
+        <name>cpp.collectionspace.org</name>
+        <domain>cpp</domain>
         <version>0.1</version>
         <display-name>Collectionspace POMONA Tenant</display-name>
         <create-disabled>${CSPACE_POMONA_CREATE_DISABLED_OPT}</create-disabled>
       </tenant>
       <repository>
-        <domain>pomona</domain>
-        <name>pomona</name>
+        <domain>cpp</domain>
+        <name>cpp</name>
         <client>nuxeo-java</client>
         <dateformats>
           <pattern>MM/dd/yyyy</pattern>
@@ -72,7 +72,7 @@
         </languages>
         <indexHandler>org.collectionspace.services.common.init.AddIndices</indexHandler>
       </repository>
-      <ims-url>/collectionspace/tenant/pomona/</ims-url>
+      <ims-url>/collectionspace/tenant/cpp/</ims-url>
       <!-- NOTE: should be in separate IMS section? -->
     </service>
   </persistence>
