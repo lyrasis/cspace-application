@@ -1,5 +1,5 @@
 <cspace-config tenantname="swcenter">
-	<tenantid>100052</tenantid>
+	<tenantid>105</tenantid>
 	<version>11</version>
 	<include src="settings.xml,local-anthro-settings.xml" required="false" merge="xmlmerge-settings.properties"
 		strip-root="yes" />

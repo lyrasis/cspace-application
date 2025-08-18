@@ -2,7 +2,7 @@
   <admin>
     <username>admin@collectionspace.org</username>
     <password>Administrator</password>
-    <tenant>100052</tenant>
+    <tenant>105</tenant>
     <tenantname>swcenter</tenantname>
     <cookievalidformins>60</cookievalidformins>
     <!-- termLists, autocomplete instance lists, specs, and schemas,
@@ -51,7 +51,7 @@
     <service>
       <url>http://localhost:@JEE_PORT@/cspace-services</url>
       <tenant>
-        <id>100052</id>
+        <id>105</id>
         <name>swcenter.collectionspace.org</name>
         <domain>swcenter</domain>
         <version>0.1</version>
