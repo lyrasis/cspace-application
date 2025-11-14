@@ -1,4 +1,4 @@
-<cspace-config tenantname="umich-nagpra">
+<cspace-config tenantname="umichnagpra">
 	<tenantid>100057</tenantid>
 	<version>11</version>
 	<include src="settings.xml,local-anthro-settings.xml" required="false" merge="xmlmerge-settings.properties"
