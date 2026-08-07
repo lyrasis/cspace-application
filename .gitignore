@@ -18,3 +18,5 @@ war-entry/tmp/
 .vscode
 .factorypath
 .flattened-pom.xml
+.mvn/**
+!.mvn/maven.config
